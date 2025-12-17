@@ -48,13 +48,9 @@ body {
 
 @media screen and (max-width: 1000px) {
   .control-behind {
-    font-size:3em;
-    margin-right:2vw !important;
-    margin-bottom:7vh !important;
+    margin-right:4vw !important;
+    margin-bottom:1vh !important;
     width:85vw;
-  }
-  .control-behind button {
-    font-size:1em;
   }
 }
 
