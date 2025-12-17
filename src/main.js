@@ -85,7 +85,7 @@ let Introduction = L.Control.extend({
     div.className = "control-behind"
 
     let title = document.createElement("div");
-    title.innerHTML = "Welcome to the North-South divide preference revealer.<br>Please choose your level of detail:"
+    title.innerHTML = "Welcome to the North-South divide line preference revealer.<br>Please choose your level of detail:"
     div.appendChild(title)
 
     let buttonTemplates = [
