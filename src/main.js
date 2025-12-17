@@ -243,7 +243,6 @@ function start(){
 
     for (let i = 0; i < samplingIntervalX; i++){
         demarcationsX[i] = northWest[1] + (xRange * (parseFloat(i)/samplingIntervalX))
-
     }
 
      for (let i = 0; i < samplingIntervalY; i++){

@@ -46,6 +46,17 @@ body {
   margin-right:25vw !important;
 }
 
+@media screen and (max-width: 1000px) {
+  .control-behind {
+    font-size:3em;
+    margin-right:2vw !important;
+    width:85vw;
+  }
+  .control-behind button {
+    font-size:1em;
+  }
+}
+
 .control-behind div {
   margin-bottom:0.25em;
 }
