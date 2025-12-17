@@ -75,7 +75,6 @@ let cityQueue = null;
 let xBoxSize = null;
 let yBoxSize = null;
 
-
 let Introduction = L.Control.extend({ 
   _container: null,
   options: {position: 'bottomright', },
@@ -96,7 +95,7 @@ let Introduction = L.Control.extend({
 
     buttonTemplates.forEach((template) =>{
         let button = document.createElement("button");
-        button.innerText = template["text"] + " (Sample granularity: "+(template["val"]==-1?"all":template["val"])+")";
+        button.innerText = template["text"] + " ("+(template["val"]==-1 ? citiesJson.features.length : "~"+((template["val"]*5)-4))+" samples)";
         button.style = "color:black;"
         button.val = template["val"]
         button.onclick = ()=>{

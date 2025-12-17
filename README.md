@@ -1,1 +1,1 @@
-Webpage that quizzes the user as to whether cities are in the north or south of the UK, then generates an inverse distance weighting map of their answers, revealing where the user has judged the mythical 'north-south divide' to be.
+Webpage that quizzes the user as to whether cities are in the north or south of the UK, then generates an inverse distance weighting map of their answers, revealing where the user has judged the infamous 'north-south divide' to be.
