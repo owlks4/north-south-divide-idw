@@ -91,7 +91,7 @@ let Introduction = L.Control.extend({
     let buttonTemplates = [
         {"text":"Just curious", "val":8},
         {"text":"Quite interested", "val":16},
-        //{"text":"I'm insane", "val":-1}
+        {"text":"I'm insane", "val":-1}
     ]
 
     buttonTemplates.forEach((template) =>{

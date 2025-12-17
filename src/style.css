@@ -49,7 +49,7 @@ body {
 @media screen and (max-width: 1000px) {
   .control-behind {
     margin-right:4vw !important;
-    margin-bottom:19vh !important;
+    margin-bottom:12vh !important;
     width:85vw;
   }
 }
