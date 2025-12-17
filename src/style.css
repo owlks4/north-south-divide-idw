@@ -50,6 +50,7 @@ body {
   .control-behind {
     font-size:3em;
     margin-right:2vw !important;
+    margin-bottom:7vh !important;
     width:85vw;
   }
   .control-behind button {
